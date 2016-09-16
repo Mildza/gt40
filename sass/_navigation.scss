@@ -1,0 +1,96 @@
+
+.member-login {
+    background-color: #b81e24;
+}
+.member-login>a:hover, .member-login>a:active, .member-login>a:visited {
+    background-color:#fff;}
+
+.icon-user {padding-right: 5px;}
+.icon-arrow {
+    padding-top:5px;
+    float: right;
+    background-color:#fff;
+    color:#b81e24;
+    @media (min-width:$screen-lg){
+        background-color:transparent;
+        float: none;
+        padding-left: 5px;
+
+    }
+}
+.icon-arrow-btn {
+  @extend .icon-arrow;
+  padding-top:3px;
+  padding-left:3px;
+  }
+
+.navbar-inverse .navbar-nav>li {
+    padding: 0px 0px;
+
+}
+
+
+
+.navbar-inverse .navbar-nav>li>a {color:#fff; font-size: 16px;}
+.dropdown-menu > li > a {white-space: normal;}
+.navbar-inverse .navbar-nav>li>.dropdown-menu>li>a:hover {background-color:#fff;}
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+    background-color: #b81e24;
+}
+.navbar-inverse .navbar-nav>li>ul {@include border-radius(15px);padding-top: 10px;width:228px;}
+.navbar-inverse .navbar-nav>li>ul>li {width:220px;
+    @media (min-width:$screen-lg){
+        text-align: center;
+        width: auto;
+
+    }
+}
+
+//.navbar-inverse .navbar-nav>li>a.member-color{color:red};
+.navbar-inverse .navbar-nav>li>.member-login {width:288px;@include border-radius(0px);}
+.navbar-inverse .navbar-nav>li>ul>li>form {width:288px;height:160px;@include border-radius(0px);}
+
+.dropdown-menu.member-login {margin-left:-107px;}
+.form-group>input {width: 260px; height: 36px; margin:0px 15px;}
+.log-in {
+    margin:0px 15px;
+    margin-top: 30px;
+    a {color:#fff;}
+}
+
+@media (max-width:$screen-lg){
+
+.navbar-nav>li {text-align: center;text-transform: uppercase;}
+.navbar-header {float: none;}
+.navbar-toggle {display: block;}
+.navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+  .navbar-collapse.collapse {
+    display: none!important;
+  }
+  .navbar-nav {
+    float: none!important;
+    margin: 7.5px -15px;
+  }
+  .navbar-nav>li {
+    float: none;
+  }
+  .navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .navbar-text {
+    float: none;
+    margin: 15px 0;
+  }
+  /* since 3.1.0 */
+  .navbar-collapse.collapse.in {
+    display: block!important;
+  }
+  .collapsing {
+    overflow: hidden!important;
+  }
+
+   }

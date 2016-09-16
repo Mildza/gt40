@@ -1,0 +1,354 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-size: 100%;
+  color: #666;
+  font-family: 'Open Sans', sans-serif;
+  background-color: white;
+}
+
+@font-face {
+  font-family: 'Angelina';
+  src: url("../fonts/angelina.TTF");
+}
+@font-face {
+  font-family: 'FontAwesome';
+  src: url("../fonts/fontawesome-webfont.eot?v=4.6.3");
+  src: url("../fonts/fontawesome-webfont.eot?#iefix&v=4.6.3") format("embedded-opentype"), url("../fonts/fontawesome-webfont.woff2?v=4.6.3") format("woff2"), url("../fonts/fontawesome-webfont.woff?v=4.6.3") format("woff"), url("../fonts/fontawesome-webfont.ttf?v=4.6.3") format("truetype"), url("../fonts/fontawesome-webfont.svg?v=4.6.3#fontawesomeregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+.member-login {
+  background-color: #b81e24;
+}
+
+.member-login > a:hover, .member-login > a:active, .member-login > a:visited {
+  background-color: #fff;
+}
+
+.icon-user {
+  padding-right: 5px;
+}
+
+.icon-arrow, .icon-arrow-btn {
+  padding-top: 5px;
+  float: right;
+  background-color: #fff;
+  color: #b81e24;
+}
+@media (max-width: 1200px) {
+  .icon-arrow, .icon-arrow-btn {
+    background-color: transparent;
+    float: none;
+    padding-left: 5px;
+  }
+}
+
+.icon-arrow-btn {
+  padding-top: 3px;
+  padding-left: 3px;
+}
+
+.navbar-inverse .navbar-nav > li {
+  padding: 0px 0px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: #fff;
+  font-size: 16px;
+}
+
+.dropdown-menu > li > a {
+  white-space: normal;
+}
+
+.navbar-inverse .navbar-nav > li > .dropdown-menu > li > a:hover {
+  background-color: #fff;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:focus, .navbar-inverse .navbar-nav > .open > a:hover {
+  background-color: #b81e24;
+}
+
+.navbar-inverse .navbar-nav > li > ul {
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  border-radius: 15px;
+  padding-top: 10px;
+  width: 228px;
+}
+
+.navbar-inverse .navbar-nav > li > ul > li {
+  width: 220px;
+}
+@media (max-width: 1200px) {
+  .navbar-inverse .navbar-nav > li > ul > li {
+    text-align: center;
+    width: auto;
+  }
+}
+
+.navbar-inverse .navbar-nav > li > .member-login {
+  width: 288px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  border-radius: 0px;
+}
+
+.navbar-inverse .navbar-nav > li > ul > li > form {
+  width: 288px;
+  height: 160px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  border-radius: 0px;
+}
+
+.dropdown-menu.member-login {
+  margin-left: -107px;
+}
+
+.form-group > input {
+  width: 260px;
+  height: 36px;
+  margin: 0px 15px;
+}
+
+.log-in {
+  margin: 0px 15px;
+  margin-top: 30px;
+}
+.log-in a {
+  color: #fff;
+}
+
+@media (max-width: 1200px) {
+  .navbar-nav > li {
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .navbar-header {
+    float: none;
+  }
+
+  .navbar-toggle {
+    display: block;
+  }
+
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  }
+
+  .navbar-collapse.collapse {
+    display: none !important;
+  }
+
+  .navbar-nav {
+    float: none !important;
+    margin: 7.5px -15px;
+  }
+
+  .navbar-nav > li {
+    float: none;
+  }
+
+  .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .navbar-text {
+    float: none;
+    margin: 15px 0;
+  }
+
+  /* since 3.1.0 */
+  .navbar-collapse.collapse.in {
+    display: block !important;
+  }
+
+  .collapsing {
+    overflow: hidden !important;
+  }
+}
+.header-first {
+  height: 42px;
+  font-size: 12px;
+  border-bottom: 1px solid #e1e1e1;
+}
+.header-first-left {
+  padding: 12px 0px;
+}
+.header-first-right {
+  padding-top: 5px;
+  padding-right: 0px;
+  text-align: right;
+}
+.header-first-right span {
+  vertical-align: middle;
+  font-family: "Angelina", cursive, Arial, serif;
+  font-size: 1.5em;
+}
+
+.cards {
+  display: inline-block;
+}
+
+.icons {
+  font-size: 21px;
+  color: #b81e24;
+  vertical-align: middle;
+  padding-left: 15px;
+  padding-right: 20px;
+  display: inline-block;
+}
+
+.header-main {
+  padding: 30px 0px;
+}
+
+.gt {
+  padding: 20px 0px;
+  text-align: center;
+}
+
+.join-us {
+  background-color: #f2f2f2;
+  padding: 20px 0px;
+}
+.join-us p {
+  font-size: 12px;
+  font-weight: bold;
+  padding-bottom: 0px;
+  margin: 5px;
+}
+
+.join-us-text {
+  display: inline-block;
+  text-align: center;
+  padding: -0px 5px 0px 5px;
+}
+
+.arrow {
+  position: relative;
+  left: -20px;
+  top: 10px;
+}
+
+.btn-join {
+  width: 192px;
+  height: 54px;
+  margin-top: 10px;
+  vertical-align: top;
+  margin-right: 10px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #b81e24;
+  text-transform: uppercase;
+}
+
+.red {
+  background-color: #b81e24;
+}
+.red i {
+  color: white;
+}
+
+.red-line {
+  height: 5px;
+  background-color: #b81e24;
+  margin: 0;
+}
+
+.slider-bg {
+  background-image: url("../images/slider.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 332px;
+}
+@media (max-width: 768px) {
+  .slider-bg {
+    background-image: none;
+  }
+}
+
+#myCarousel {
+  width: 100%;
+}
+
+.club {
+  width: 500px;
+  height: 270px;
+  padding: 20px 50px;
+}
+.club h2 {
+  color: red;
+  font-weight: bold;
+  margin-top: 0px;
+}
+.club p {
+  font-weight: bold;
+}
+.club-icon {
+  padding-left: 15px;
+}
+@media (max-width: 768px) {
+  .club {
+    width: auto;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+.club-about {
+  width: 220px;
+  height: 60px;
+  background-color: #020064;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  text-align: center;
+  display: table;
+}
+@media (max-width: 768px) {
+  .club-about {
+    margin: 0 auto;
+  }
+}
+.club-about a {
+  display: table-cell;
+  vertical-align: middle;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 1.2em;
+}
+.club-about a:hover {
+  text-decoration: none;
+}
+
+.btn-member {
+  width: 88px;
+  height: 28px;
+  display: inline-block;
+}
+
+.btn-member:hover {
+  background-color: #fff;
+}
+
+.carousel-indicators .active {
+  background-color: #b81e24;
+}
+
+.carousel-indicators > li {
+  background-color: grey;
+}
