@@ -67,7 +67,10 @@
           </div>
             <div id="myNavbar" class="collapse navbar-collapse">
                 <ul class="nav navbar-nav">
+                    <li class="hidden-md hidden-lg icon-close"><i class="fa fa-times" aria-hidden="true"></i></li>
+
                     <li class="red"><a href="#"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+
                     <li class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">Our club
                         <span class="caret"></span></a>
@@ -140,7 +143,7 @@
               <div class="carousel-inner" role="listbox">
                 <div class="item active">
                         <div class="slider-bg ">
-                            <div class="container-fluid">
+                            
 
 
                           <div class="row ">
@@ -159,7 +162,7 @@
                     </div>
                     </div>
                 </div>
-                </div>
+
                 </div>
                 </div>
 
@@ -211,6 +214,14 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
         <!-- Latest compiled JavaScript -->
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        <script>
+        $(document).ready(function(){
+        $(".icon-close").click(function(){
+            $(".collapse").collapse('hide');
+        });
+    });
+    </script>
 
 </body>
 </html>

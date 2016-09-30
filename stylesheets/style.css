@@ -37,7 +37,7 @@ html, body {
   background-color: #fff;
   color: #b81e24;
 }
-@media (max-width: 1200px) {
+@media (max-width: 768px) {
   .icon-arrow, .icon-arrow-btn {
     background-color: transparent;
     float: none;
@@ -52,6 +52,10 @@ html, body {
 
 .navbar-inverse .navbar-nav > li {
   padding: 0px 0px;
+}
+
+.icon-close {
+  cursor: pointer;
 }
 
 .navbar-inverse .navbar-nav > li > a {
@@ -83,7 +87,7 @@ html, body {
 .navbar-inverse .navbar-nav > li > ul > li {
   width: 220px;
 }
-@media (max-width: 1200px) {
+@media (max-width: 768px) {
   .navbar-inverse .navbar-nav > li > ul > li {
     text-align: center;
     width: auto;

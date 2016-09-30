@@ -11,7 +11,7 @@
     float: right;
     background-color:#fff;
     color:#b81e24;
-    @media (min-width:$screen-lg){
+    @media (max-width:$screen-sm){
         background-color:transparent;
         float: none;
         padding-left: 5px;
@@ -29,7 +29,7 @@
 
 }
 
-
+.icon-close{cursor: pointer;}
 
 .navbar-inverse .navbar-nav>li>a {color:#fff; font-size: 16px;}
 .dropdown-menu > li > a {white-space: normal;}
@@ -39,7 +39,7 @@
 }
 .navbar-inverse .navbar-nav>li>ul {@include border-radius(15px);padding-top: 10px;width:228px;}
 .navbar-inverse .navbar-nav>li>ul>li {width:220px;
-    @media (min-width:$screen-lg){
+    @media (max-width:$screen-sm){
         text-align: center;
         width: auto;
 
@@ -57,6 +57,9 @@
     margin-top: 30px;
     a {color:#fff;}
 }
+
+
+
 
 @media (max-width:$screen-lg){
 
